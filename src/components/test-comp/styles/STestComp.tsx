@@ -6,6 +6,6 @@ interface ITestCompStyle {
 }
 
 export const STestComp = styled.div<ITestCompStyle>`
-  color: #333;
-  ${(props) => props.passedData && `color:${props.passedData}`}
+  color: #f4f4f4;
+  ${(props) => props.passedData && `color:white`}
 `;
